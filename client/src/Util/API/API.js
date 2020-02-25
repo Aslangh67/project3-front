@@ -1,6 +1,6 @@
 import axios from "axios";
-const URL = "http://localhost:8080"
-// const URL = "https://joesreactzoo-api.herokuapp.com"
+// const URL = "http://localhost:8080";
+const URL = "https://food-savers-api.herokuapp.com"
 
 const API = {
     // User Routes __________________________________________________
