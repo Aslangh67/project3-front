@@ -53,7 +53,7 @@ export default function FindingSupplier() {
 			<form className="register-form">
 				<div className='search-bar'>
 					<h1 htmlFor="searchSupplier" className="sectionH1">Account History</h1>
-					<p>Search Time Period</p>
+					<p className="p-search-tag">Search Time Period</p>
 					<input
 						className='city-search'
 						value={cityState.city}
@@ -61,7 +61,7 @@ export default function FindingSupplier() {
 						type='text'
 						name='city'
 					/>
-					<button className='btn-main' type='submit' onClick={submitSearch}>Search</button>
+					<button className='btn-main btn-no-top-margin' type='submit' onClick={submitSearch}>Search</button>
 				</div>
 			</form>
 			<div>

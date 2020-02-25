@@ -6,6 +6,7 @@
   background-color: $frosty;
   border-radius: 5px;
   padding-bottom: 3%;
+  padding-top: 2px;
 
   .accountH1,
   .pickupH1,
@@ -101,7 +102,7 @@
 
 @media screen and (max-width: 900px) {
   .Section {
-    margin-top: 1%;
+    margin-top: 30%;
     padding-top: 20px;
     padding-bottom: 40px;
 
@@ -115,7 +116,7 @@
 
     .accountH1 {
       text-align: center;
-      margin: 0 auto;
+      margin: 1% auto;
       margin-bottom: 12%;
       font-size: 150%;
     }
@@ -161,6 +162,15 @@
 
     th {
       margin-bottom: 4%;
+    }
+
+    .p-search-tag {
+      margin: 0;
+    }
+
+    .btn-no-top-margin {
+      margin-top: 20px;
+      margin-left: 0;
     }
   }
 }

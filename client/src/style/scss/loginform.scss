@@ -3,10 +3,11 @@
 .login-form {
   width: 60%;
   margin: 0 auto;
-  
+  background-color: $frosty !important;
   text-align: center;
-  // margin-top: 4%;
-  padding: 20px;
+  margin-top: 10%;
+  padding-bottom: 3%;
+  padding-top: 2px;
   border-radius: 5px;
 }
 
@@ -24,6 +25,7 @@ h3 {
   text-align: center;
   width: auto;
   margin: 15px auto;
+
 
   .row {
     text-align: center;
@@ -49,10 +51,8 @@ h3 {
 @media screen and (max-width: 900px) {
   .login-form {
     width: 75%;
-    margin: 1% auto;
+    margin: 0.5% auto;
     text-align: center;
-    margin-top: 1%;
-    padding: 35px 0;
 
     input {
       &:first-of-type {
@@ -64,6 +64,6 @@ h3 {
 
 @media screen and (max-width: 500px) {
   .login-form {
-    margin-top: 20%;
+    margin-top: 2%;
   }
 }

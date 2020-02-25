@@ -151,7 +151,6 @@ export default function InventoryTable(props) {
 
                 <tr className="inventoryTR" key={index}>
                   <td className="inventoryTD span-2-of-12">{inventory.title}</td>
-                  <td></td>
                   <td className="inventoryTD span-1-of-12">{inventory.quantity}</td>
                   <td className="inventoryTD span-1-of-12">{inventory.unit}</td>
                   <td className="inventoryTD span-4-of-12">${inventory.value_unit}</td>
